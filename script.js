@@ -8,9 +8,11 @@ alert("Invalid input");
 else{
 let li = document.createElement("li");
 li.innerHTML = inputBox.value;
+li.title = "Strike task";
 listContainer.appendChild(li);
 let span = document.createElement("span");
 span.innerHTML = "\u00d7";
+span.title = "Delete task";
 li.appendChild(span);
 }
 inputBox.value="";
