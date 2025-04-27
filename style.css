@@ -18,18 +18,18 @@ body{
   font-size: 0.88rem;
   user-select: none;
   overflow-x: hidden;
-  background: floralwhite;
+  background: plum;
 }
 .todo{
 width: 100%;
 max-width: 540px;
-background: papayawhip;
-margin: 20px 30px 30px;
+background: white;
+margin: 20px auto;
 padding: 20px 20px 50px;
 border-radius: 10px;
 }
 .todo h2{
-color: peru;
+color: indigo;
 font-size: 1rem;
 display: flex;
 align-items: left;
@@ -58,7 +58,7 @@ font-weight: 14px;
 button{
 border: none;
 outline: none;
-background: peru;
+background: indigo;
 padding: 5px 20px;
 color: white;
 font-size: 16px;
@@ -68,7 +68,7 @@ border-radius: 40px;
 
 ul li{
 list-style: none;
-color: peru;
+color: indigo;
 font-size: 17px;
 padding: 12px 8px 12px 50px;
 user-select: none;
@@ -87,7 +87,7 @@ top: 10px;
 left: 8px;
 }
 ul li.checked{
-color: tan;
+color: plum;
 text-decoration: line-through;
 }
 ul li.checked::before{
@@ -106,5 +106,5 @@ text-align: center;
 border-radius: 50%;
 }
 ul li span:hover{
-background: navajowhite;
+background: whitesmoke;
 }
