@@ -105,6 +105,9 @@ line-height: 40px;
 text-align: center;
 border-radius: 50%;
 }
+ul li:hover{
+background: whitesmoke;
+}
 ul li span:hover{
 background: whitesmoke;
 }
