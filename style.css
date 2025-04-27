@@ -18,7 +18,7 @@ body{
   font-size: 0.88rem;
   user-select: none;
   overflow-x: hidden;
-  background: plum;
+  background: rebeccapurple;
 }
 .todo{
 width: 100%;
@@ -87,7 +87,7 @@ top: 10px;
 left: 8px;
 }
 ul li.checked{
-color: plum;
+color: rebeccapurple;
 text-decoration: line-through;
 }
 ul li.checked::before{
